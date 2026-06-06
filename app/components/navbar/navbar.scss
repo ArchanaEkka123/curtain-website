@@ -1,0 +1,142 @@
+nav {
+  display: flex;
+  padding: 10px 10px;
+  background-color: #5a543e;
+  width: 100%;
+  height: auto;
+  
+  .navbar {
+    display: flex;
+    
+  }
+} 
+
+.nav-heading-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  
+  
+ 
+}
+.nav_heading {
+  display: flex;
+  float: left;
+
+  font-weight: 700;
+  font-size: 30px;
+  @media (max-width: 1000px) {
+    font-size: 20px;
+  }
+  @media (max-width: 700px) {
+    display: none;
+  }
+
+ 
+ 
+}
+
+.nav_ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+   width: auto;
+  //  @media (max-width: 400px) {
+  //   display: none;
+  // }
+}
+nav ul li {
+  display: flex;
+  margin-right: 10px;
+}
+
+nav ul li {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+
+  transition: background-color 0.3s;
+  @media (max-width: 800px) {
+    color: rgb(214, 213, 115);
+    padding: 0px 0px;
+  }
+
+  @media (max-width: 480px) {
+    color: rgb(228, 223, 227);
+  }
+}
+
+nav ul li Link:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+.nav_content {
+  font-size: 18px;
+  padding-right: 30px;
+  @media (max-width: 800px) {
+    padding: 10px;
+    font-size: 16px;
+  }
+  @media (max-width: 600px) {
+    padding: 5px;
+  }
+  @media (max-width: 500px) {
+    font-size: 15px;
+    padding: 0px;
+  }
+  @media (max-width: 400px) {
+    font-size: 12px;
+    
+  }
+}
+.nav-button-holder {
+  display: flex;
+  gap: 10px;
+
+  .button-login {
+    width: 126px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #cac8c1;
+    
+    
+    @media (max-width: 1200px) {
+      width: 100px;
+      height: 40px;
+    }
+    @media (max-width: 550px) {
+      display: none;
+    }
+  }
+  .button {
+    width: 200px;
+    height: 50px;
+    background: #7a818d;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    @media (max-width: 1200px) {
+      width: 150px;
+      height: 40px;
+      font-size: 11px;
+    }
+    @media (max-width: 1000px) {
+      display: none;
+    }
+  }
+}
+
+
