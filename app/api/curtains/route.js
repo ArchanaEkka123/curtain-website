@@ -1,5 +1,5 @@
 import dbConnect from "@/lib/mongodb";
-import Curtain from "@/models/Curtain";
+
 
 export async function GET() {
   await dbConnect();
