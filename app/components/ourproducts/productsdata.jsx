@@ -1,4 +1,4 @@
-const projectsData = [
+const productsData = [
   {
     id: 1,
     title: "Blackout Curtains",
@@ -61,4 +61,4 @@ const projectsData = [
   },
 ];
 
-export default projectsData;
+export default productsData;

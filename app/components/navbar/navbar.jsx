@@ -55,7 +55,7 @@ const Navbar = () => {
         </ul>
 
         <div className="nav-button-holder">
-          <Link href="/contactform">
+          <Link href="/admin">
             <button className="button-login text-black">
               Login
             </button>
