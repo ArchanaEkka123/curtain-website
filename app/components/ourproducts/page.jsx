@@ -8,14 +8,14 @@ import productsData from "./productsdata.jsx";
 
 const OurProducts = () => {
   const [showPopup, setShowPopup] = useState(false);
-const [selectedImage, setSelectedImage] = useState(null);
-//   const [products, setProducts] = useState([]);
-// useEffect(() => {
-//   fetch("/api/products")
-//     .then((res) => res.json())
-//     .then((data) => setProducts(data))
-//     .catch((err) => console.log(err));
-// }, []);
+  const [selectedImage, setSelectedImage] = useState(null);
+  //   const [products, setProducts] = useState([]);
+  // useEffect(() => {
+  //   fetch("/api/products")
+  //     .then((res) => res.json())
+  //     .then((data) => setProducts(data))
+  //     .catch((err) => console.log(err));
+  // }, []);
   return (
     <div className="work-main">
       <div className="work-sec">
@@ -51,7 +51,7 @@ const [selectedImage, setSelectedImage] = useState(null);
                     <div key={item.id} className="right-box">
                       <p className="font-bold projects-content">
                         {item.title}
-                      </p>  
+                      </p>
                       <div className="underline bg-gray-500"></div>
                       <motion.div
                         whileHover={{ scale: 1.05 }}
