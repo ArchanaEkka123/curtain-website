@@ -31,10 +31,17 @@ export const metadata: Metadata = {
 //     </html>
 //   );
 // }
-
+import type { ReactNode } from "react";
 import Navbar from "./components/navbar/navbar";
 import Footer from "./components/footer/footer";
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: ReactNode;
+})
+
+{
+  
   return (
     <html lang="en"
     className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
