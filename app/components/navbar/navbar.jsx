@@ -12,14 +12,14 @@ const Navbar = () => {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
     >
-      <nav className="navbar justify-evenly">
+      <nav className="navbar justify-evenly fixed w-full m-0 align-middle flex">
         <div className="nav-heading-logo">
           <Image
             className="logo"
-            src="/images/Ekka-Logo.jpg"
+            src="/images/EliteDecor.jpg"
             alt="EKKA Logo"
-            width={37}
-            height={29}
+            width={80}
+            height={80}
           />
 
           <p className="nav_heading text-amber-50">Elite Decor</p>
@@ -54,7 +54,7 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <div className="nav-button-holder">
+        <div className="nav-button-holder ">
           <Link href="/admin">
             <button className="button-login text-black">
               Login

@@ -1,7 +1,8 @@
 const servicesData = [
   {
     id: 1,
-    title: "Blackout Curtains",
+   
+    title: "Pleated Curtains",
     image: "/images/artbovich01.jpg",
     features: [
       "Blocks sunlight completely",
@@ -11,7 +12,7 @@ const servicesData = [
   },
   {
     id: 2,
-    title: "Sheer Curtains",
+     title: "Blackout Curtains",
     image: "/images/artbovich02.jpg",
     features: [
       "Allows natural light",
@@ -21,7 +22,7 @@ const servicesData = [
   },
   {
     id: 3,
-    title: "Printed Curtains",
+    title: "Sheer Curtains",
     image: "/images/artbovich03.jpg",
     features: [
       "Modern designs",

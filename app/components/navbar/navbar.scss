@@ -1,13 +1,14 @@
 nav {
   display: flex;
-  padding: 10px 10px;
-  background-color: #5a543e;
+   background-color: #5a543e;
   width: 100%;
   height: auto;
   
   .navbar {
     display: flex;
-    
+    padding: 5px;
+  //   justify-content: center;
+  // align-items: center;
   }
 } 
 
@@ -19,7 +20,9 @@ nav {
   justify-content: center;
   align-items: center;
   
-  
+ .logo{
+    border-radius: 50px;
+ }
  
 }
 .nav_heading {
@@ -99,6 +102,8 @@ nav ul li Link:hover {
 .nav-button-holder {
   display: flex;
   gap: 10px;
+justify-content: center;
+align-items: center;
 
   .button-login {
     width: 126px;

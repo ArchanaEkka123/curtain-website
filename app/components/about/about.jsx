@@ -22,9 +22,8 @@ const About = () => {
           </p>
 
           <p className="content">
-            At Curtain Ekka, we specialise in premium-quality curtains,
-            blinds, shutters, and customised window furnishing solutions for
-            homes, offices, hotels, and commercial spaces. Our mission is to
+            At Elite Decor, we specialise in premium-quality curtains,
+            and customised curtains for homes, offices, hotels, and commercial spaces. Our mission is to
             combine elegance, comfort, and functionality to create interiors
             that truly reflect your style.
           </p>
@@ -36,9 +35,8 @@ const About = () => {
           </p>
 
           <p className="content">
-            Whether you want luxurious curtains for your living room,
-            blackout solutions for your bedroom, or stylish blinds for your
-            office, Curtain Ekka delivers products that enhance every
+            If you want luxurious curtains for your living room,
+            blackout solutions for your bedroom, Elite Decor delivers products that enhance every
             environment.
           </p>
 
@@ -69,11 +67,7 @@ const About = () => {
           </div>
 
           <div>
-            <p className="sub-content">Professional Installation</p>
-            <p className="content">
-              Experienced technicians ensure smooth and hassle-free
-              installation.
-            </p>
+           
           </div>
 
           <div>
